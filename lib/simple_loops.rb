@@ -1,35 +1,31 @@
 # Write your methods here
 def loop_message_five_times(message)
-  counter = 0
-  while counter < message.length do
+  count = 0
+  while count < message.length do
     puts message
-    counter += 1
+    count += 1
   end
 end
 
 def loop_message_n_times(message, number)
-  counter = 0
-  while counter < number do
+  count = 0
+  while count < message.length do
     puts message
-    counter += 1
+    count += 1
   end
 end
 
 def output_array(array)
   count = 0
   while count < array.length do
-    puts array[count]
+    puts array
     count += 1
   end
-
-  end
+end
 
 def return_string_array(array)
   count = 0
-  new_array = []
   while count < array.length do
-    new_array.push(array[count].to_s)
-    count += 1
+    puts array.to_s
   end
-    new_array
 end
